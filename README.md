@@ -1,20 +1,20 @@
-# @kensie/create-context-store
+# @kensie/create-context-hook
 
 > Simple utility to create context-bound React hooks.
 
 ## Install
 
 ```bash
-npm install --save @kensie/create-context-store
+npm install --save @kensie/create-context-hook
 ```
 
 ## Usage
 
 ```jsx
 import * as React from 'react'
-import { createContextStore } from '@kensie/create-context-store'
+import { createContextHook } from '@kensie/create-context-hook'
 
-const [FooProvider, useFooStore, FooContext] = createContextStore((providerProps) => {
+const [FooProvider, useFooStore, FooContext] = createContextHook((providerProps) => {
   const [foo, setFoo] = React.useState('foo' + providerProps.suffix)
   return { foo, setFoo }
 })

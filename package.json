@@ -1,10 +1,10 @@
 {
-  "name": "@kensie/create-context-store",
+  "name": "@kensie/create-context-hook",
   "version": "0.0.1",
   "description": "Simple utility to create context-bound React hooks.",
   "author": "kensiebliss",
   "license": "MIT",
-  "repository": "kensiebliss/create-context-store",
+  "repository": "kensiebliss/create-context-hook",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
