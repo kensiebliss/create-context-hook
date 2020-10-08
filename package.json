@@ -1,6 +1,6 @@
 {
   "name": "@kensie/create-context-hook",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Simple utility to create context-bound React hooks.",
   "author": "kensiebliss",
   "license": "MIT",
