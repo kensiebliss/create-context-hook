@@ -1,6 +1,6 @@
 # @kensie/create-context-hook
 
-> Simple utility to create context-bound React hooks.
+Simple utility to create context-bound React hooks.
 
 ## Install
 
