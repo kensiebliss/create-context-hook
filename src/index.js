@@ -1,7 +1,7 @@
 import React, { createContext, useContext } from "react";
 
-export const createContextHook = (useCreator) => {
-  const Context = createContext(null);
+export const createContextHook = (useCreator, initialContext = null) => {
+  const Context = createContext(initialContext);
 
   const Provider = ({ children, ...props }) => {
     const store = useCreator(props);
